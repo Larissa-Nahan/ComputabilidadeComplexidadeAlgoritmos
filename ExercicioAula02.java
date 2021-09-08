@@ -16,19 +16,7 @@ public class ExercicioAula02 {
         }
         
         soma += (numero%10);
-            /*(ex: 1111)
-                = 0 + 1
-                = 1 + 1
-                = 2 + 1
-                = 3 + 1
-            */
         return somando(numero/10, soma);
-            /*(ex: 1111)
-                111, 1
-                11 , 2
-                1  , 3
-                0.1, 4
-            */
     }
     
     public static void binario(int numero){
